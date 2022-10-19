@@ -1,0 +1,22 @@
+{
+  "name": "bytebank",
+  "version": "1.0.0",
+  "description": "Projeto do Bytebank para seus clientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelessssa/JS_Alura.git"
+  },
+  "author": "Andre",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/andrelessssa/JS_Alura/issues"
+  },
+  "homepage": "https://github.com/andrelessssa/JS_Alura#readme"
+}
+
+
