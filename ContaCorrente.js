@@ -6,14 +6,25 @@ export class ContaCorrente {
     sacar(valor) {
         if (this.saldo >= valor) {
             this.saldo -= valor;
+            return valor;
         }
     }
     depositar(valor) {
-        if (valor > 0) {
-            this.saldo += valor;  
+        if (valor <= 0) {
+            return;   
+        }
+        else {
+            this.saldo += valor; 
         }
     }
     transferir(valor, conta) {
+
+        conta.cidade = "Sao Paulo";
+        const valorSacado = this.sacar(valor);
+        conta.depositar(valorSacado); 
+       
+      
+
         
     }
 }
