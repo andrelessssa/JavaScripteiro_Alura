@@ -8,7 +8,7 @@ export class OrdemServico{
     valor;
     
 
-    get _imei() {
+    get imei() {
         return this._imei;
     }  
     
@@ -18,8 +18,9 @@ export class OrdemServico{
         this.modelo = modelo;
         this.senha = senha;
         this.problemaRelatado = problemaRelatado;
+        this._imei = imei;
         this.valor = valor;
-        this._imei = _imei;
+        
 
     }
 
