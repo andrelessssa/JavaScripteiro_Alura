@@ -4,7 +4,7 @@ import { OrdemServico } from "./OrdemServico";
 
 //nome, cpf, endereco, telefone//
 const cliente1 = new Cliente("André", 11223333444, "Rua B,Sao Jorge", 82981121510);
-const cliente2 = new Cliente("AndrÉ",11223333444,"Rua B,Sao Jorge",82981121510);
+//const cliente2 = new Cliente("AndrÉ",11223333444,"Rua B,Sao Jorge",82981121510);
 
 
 
