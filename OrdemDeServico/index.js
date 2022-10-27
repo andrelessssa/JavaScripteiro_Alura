@@ -1,4 +1,4 @@
-import { Cliente } from "./Cliente";
+import {Cliente} from './cliente.js';
 import { OrdemServico } from "./OrdemServico";
 
 
