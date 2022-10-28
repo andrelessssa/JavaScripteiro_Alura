@@ -1,5 +1,5 @@
 import {Cliente} from './cliente.js';
-import { OrdemServico } from "./OrdemServico";
+import { OrdemServico } from "./OrdemServico.js";
 
 
 //nome, cpf, endereco, telefone//
@@ -14,3 +14,4 @@ const ordemServico1 = new OrdemServico("SmartPhone","iPhone","iphone 8",12345,"t
 
 
 console.log(cliente1);
+console.log(ordemServico1);

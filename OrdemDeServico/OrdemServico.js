@@ -18,7 +18,7 @@ export class OrdemServico{
         this.modelo = modelo;
         this.senha = senha;
         this.problemaRelatado = problemaRelatado;
-        this._imei = imei;
+        this._imei = _imei;
         this.valor = valor;
         
 
