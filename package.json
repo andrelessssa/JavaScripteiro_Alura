@@ -1,0 +1,20 @@
+{
+  "name": "exit",
+  "version": "1.0.0",
+  "description": "Neste plano de estudos, vou ver os melhores módulos para me tornar um mestre no JavaScript! As tecnologias começam do Front-end, e depois vão misturando para o Back-end. O meu objetivo me tornar um Full-stack — o que certamente vai ajudar —, e sim, saber os dois lados da moeda.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelessssa/JavaScripteiro_Alura.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrelessssa/JavaScripteiro_Alura/issues"
+  },
+  "homepage": "https://github.com/andrelessssa/JavaScripteiro_Alura#readme"
+}
