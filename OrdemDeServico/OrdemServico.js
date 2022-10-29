@@ -1,4 +1,5 @@
 export class OrdemServico{
+    static quantidadeDeOrdens = 0;
     aparelho;
     marca;
     modelo;
@@ -20,6 +21,7 @@ export class OrdemServico{
         this.problemaRelatado = problemaRelatado;
         this._imei = _imei;
         this.valor = valor;
+        OrdemServico.quantidadeDeOrdens +=1 ;
         
 
     }
